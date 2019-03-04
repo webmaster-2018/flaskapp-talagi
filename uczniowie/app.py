@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# quiz-orm/app.py
-
 from flask import g
 from modele import *
 from views import *
@@ -9,7 +6,6 @@ import os
 # konfiguracja aplikacji
 app.config.update(dict(
     SECRET_KEY='bardzosekretnawartosc',
-    DATABASE=os.path.join(app.root_path, baza_plik),
 ))
 
 
